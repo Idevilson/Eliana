@@ -1,0 +1,126 @@
+@media only screen and (min-width: 768px) {
+  .container {
+    margin-top: 4rem;
+    border-radius: 15px;
+    background-color: #ef8e1a;
+
+    margin-left: 2rem;
+    margin-right: 2rem;
+
+    .header {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      height: 90px;
+
+      border-top-left-radius : 15px;
+      border-top-right-radius: 15px;
+
+      .abreAspasContainer {
+        margin-left: 2rem;
+      }
+    }
+
+    .body {
+      display: flex;
+
+      align-items: center;
+      justify-content: center;
+      height: 220px;
+
+      h2 {
+        color: #26417e;
+        font-family: Montserrat;
+        font-size: 15px;
+        color: #ffffff;
+        letter-spacing: normal;
+        line-height: 29.17px;
+        text-align: center;
+        text-transform: uppercase;
+
+      }
+    }
+
+    .footer {
+      height: 90px;
+
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+
+      border-bottom-left-radius: 15px;
+      border-bottom-right-radius: 15px;
+
+      .fechaAspasContainer {
+        margin-right: 2rem;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    margin-top: 4rem;
+    border-radius: 15px;
+    background-color: #ef8e1a;
+
+    margin-left: 2rem;
+    margin-right: 2rem;
+
+    .header {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      height: 90px;
+
+      border-top-left-radius : 15px;
+      border-top-right-radius: 15px;
+
+      .abreAspasContainer {
+        margin-left: 2rem;
+      }
+    }
+
+    .body {
+      display: flex;
+
+      align-items: center;
+      justify-content: center;
+      height: 200px;
+
+      h2 {
+        /* Style for "Fui direto" */
+
+        color: #ffffff;
+        font-family: Montserrat;
+        font-size: 27px;
+        font-weight: 700;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: 29.17px;
+        text-align: center;
+        text-transform: uppercase;
+        /* Text style for "N, atural" */
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: normal;
+
+      }
+    }
+
+    .footer {
+      height: 90px;
+
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+
+      border-bottom-left-radius: 15px;
+      border-bottom-right-radius: 15px;
+
+      .fechaAspasContainer {
+        margin-right: 2rem;
+      }
+    }
+  }
+}

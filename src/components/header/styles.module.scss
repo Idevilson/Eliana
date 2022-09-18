@@ -1,0 +1,188 @@
+@media only screen and (min-width: 768px) {
+  .headerContainer {
+    height: 5rem;
+    width: 1200px;
+    margin-top: -50rem;
+
+    z-index: 1;
+  }
+
+  .headerContent {
+    height: 5rem;
+    margin: 0 auto;
+    padding: 0 2rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .navAndLogoContainer {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .socialIconsContainer {
+      width: 230px;
+      height: 40px;
+      position: relative;
+      margin-left: -3rem;
+      margin-top: .5rem;
+
+      align-items: center;
+
+
+      a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 5px;
+      }
+
+
+      .socialIcon:first-child {
+        position: absolute;
+        width: 39px;
+        height: 39px;
+        margin-left: 4rem;
+      }
+
+      .socialIcon:nth-child(2) {
+        position: absolute;
+        width: 39px;
+        height: 39px;
+
+        margin-left: 7rem;
+      }
+
+      .socialIcon:nth-child(3) {
+        position: absolute;
+        width: 39px;
+        height: 39px;
+
+        margin-left: 10rem;
+      }
+
+    }
+
+    .imageContainer {
+      margin-right: 2rem;
+    }
+
+    nav {
+      margin-right: 3rem;
+      height: 5rem;
+
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+
+      .divider {
+        background-color: #ffffff;
+        height: 12px;
+        width: 2px;
+
+        margin-left: 1rem;
+        margin-right: 1rem;
+      }
+
+      a {
+        color: #ffffff;
+        font-size: 13px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .headerContainer {
+    height: 5rem;
+    margin-top: -570rem;
+    position: absolute;
+
+    z-index: 1;
+  }
+
+  .headerContent {
+    height: 5rem;
+    margin: 0 auto;
+    padding: 0 2rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .navAndLogoContainer {
+      display: none;
+    }
+
+    .socialIconsContainer {
+      width: 230px;
+      height: 40px;
+      position: relative;
+
+      align-items: center;
+      margin-top: 5rem;
+
+      a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 5px;
+      }
+
+
+      .socialIcon:first-child {
+        position: absolute;
+        width: 78px;
+        height: 78px;
+        margin-left: -3.5rem;
+      }
+
+      .socialIcon:nth-child(2) {
+        position: absolute;
+        width: 78px;
+        height: 78px;
+
+        margin-left: 4rem;
+      }
+
+      .socialIcon:nth-child(3) {
+        position: absolute;
+        width: 78px;
+        height: 78px;
+
+        margin-left: 11.5rem;
+      }
+
+    }
+
+    .imageContainer {
+      margin-left: 3rem;
+    }
+
+    nav {
+      margin-right: 3rem;
+      height: 5rem;
+
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+
+      .divider {
+        background-color: #ffffff;
+        height: 12px;
+        width: 2px;
+
+        margin-left: 1rem;
+        margin-right: 1rem;
+      }
+
+      a {
+        font-size: 13px;
+      }
+    }
+  }
+}

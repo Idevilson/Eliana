@@ -1,0 +1,146 @@
+@media only screen and (min-width: 768px) {
+  .abstractFirstSection {
+    position: absolute;
+    margin-top: -15rem;
+    width: 1919px;
+    height: 890px;
+  }
+
+  .Container {
+    flex: 1;
+    width: 100%;
+    position: relative;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    .containerFix{
+      height: 1000px;
+    }
+
+    .slogan {
+      position: absolute;
+      margin-top: -15rem;
+      margin-left: -45rem;
+    }
+
+    .sloganMobile {
+      display: none;
+    }
+
+    .candidateName {
+      position: absolute;
+      margin-top: 24rem;
+
+      width: 1072px;
+      height: 333px;
+    }
+
+    .candidateNumber {
+      position: absolute;
+      margin-bottom: -48rem;
+
+      width: 791px;
+      height: 128px;
+    }
+
+    .psdbLogo {
+      display: none;
+    }
+
+    .candidatePhoto {
+      position: absolute;
+
+      width: 433px;
+      height: 637px;
+    }
+
+    .retangleEffectFirstSection{
+      position: absolute;
+      width: 100%;
+      height: 500px;
+
+      margin-bottom: -32rem;
+      background: rgb(9,24,97);
+      background: linear-gradient(0deg, rgba(9,24,97,1) 35%, rgba(0,212,255,0) 100%);
+    }
+
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .abstractFirstSection {
+    position: absolute;
+    margin-top: -15rem;
+    width: 1080px;
+    overflow: hidden;
+
+    display: none;
+  }
+
+  .Container {
+    flex: 1;
+    width: 100%;
+    position: relative;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    .containerFix{
+      height: 1900px;
+    }
+
+    .slogan {
+     display: none;
+    }
+
+
+    .candidateName {
+      position: absolute;
+      margin-top: -100rem;
+
+      width: 880px;
+      height: 331px;
+    }
+
+    .candidateNumber {
+      position: absolute;
+      margin-bottom: -69rem;
+
+      width: 861px;
+      height: 224px;
+    }
+
+    .psdbLogo {
+      position: absolute;
+      margin-bottom: -100rem;
+      margin-left: -2rem;
+
+      width: 319px;
+      height: 100px;
+    }
+
+    .candidatePhoto {
+      position: absolute;
+      margin-top: -2rem;
+
+      width: 750px;
+      height: 1100px;
+    }
+
+    .retangleEffectFirstSection{
+      position: absolute;
+      width: 100%;
+      margin-top: 20rem;
+      height: 60rem;
+
+      margin-bottom: -10rem;
+      background: rgb(3,30,101);
+      background: linear-gradient(0deg, rgba(3,30,101,1) 35%, rgba(0,212,255,0) 100%);
+    }
+  }
+}

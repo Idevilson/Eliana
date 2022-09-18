@@ -1,0 +1,316 @@
+@media only screen and (min-width: 768px) {
+  .container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    background-color: #ffffff;
+
+    .bgContainer {
+      position: absolute;
+      width: 102.5%;
+      height: 850px;
+    }
+    width: 1920px;
+
+    .centerContainer {
+      z-index: 1;
+      .headerContent {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        margin-top: 4rem;
+        margin-bottom: 3rem;
+
+        h1 {
+          color: #091861;
+          font-family: "Montserrat";
+          font-size: 55px;
+          font-weight: 2000;
+          font-style: normal;
+          letter-spacing: normal;
+          line-height: 62.48px;
+          text-align: center;
+          text-transform: uppercase;
+          /* Text style for "posicionam" */
+          letter-spacing: -0.58px;
+          line-height: normal;
+        }
+      }
+
+      .bodyVideoContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .footer {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+
+        width: 100%;
+        height: 20rem;
+
+        .card {
+          height: 200px;
+          display: flex;
+
+          align-items: center;
+          flex-direction: column;
+
+          margin-left: 2rem;
+          margin-right: 2rem;
+
+          .textBox {
+            h2 {
+              color: #091861;
+              font-family: Montserrat;
+              font-size: 20px;
+              font-weight: 1000;
+              font-style: normal;
+              letter-spacing: normal;
+              line-height: normal;
+              text-align: center;
+              text-transform: uppercase;
+              /* Text style for "R, epresen" */
+              font-style: normal;
+              letter-spacing: normal;
+              line-height: normal;
+
+            }
+          }
+          .textBox:nth-child(2){
+            margin-top: 1rem;
+          }
+        }
+
+      }
+    }
+  }
+
+  .containerMobile {
+    display: none;
+    justify-content: center;
+    flex-direction: row;
+    background-color: #ffffff;
+
+    width: 1080px;
+
+    .centerContainerMobile {
+      .headerContentMobile {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        margin-top: 4rem;
+        margin-bottom: 3rem;
+      }
+
+      .bodyVideoContainerMobile {
+        display: none;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .footerMobile {
+        display: none;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+
+        width: 100%;
+        height: 20rem;
+
+        .cardMobile {
+          display: none;
+          height: 200px;
+
+          align-items: center;
+          flex-direction: column;
+
+          margin-left: 2rem;
+          margin-right: 2rem;
+
+          .textBoxMobile {
+            display: none;
+            h2 {
+              color: #26417e;
+              font-family: Montserrat;
+              font-size: 19px;
+              font-weight: bold;
+              letter-spacing: normal;
+              line-height: 29.17px;
+              text-align: center;
+              text-transform: uppercase;
+
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    display: none;
+    justify-content: center;
+    flex-direction: row;
+    background-color: #ffffff;
+
+    width: 1080px;
+
+    .centerContainer {
+      .headerContent {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        margin-top: 4rem;
+        margin-bottom: 3rem;
+      }
+
+      .bodyVideoContainer {
+        display: none;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .footer {
+        display: none;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+
+        width: 100%;
+        height: 20rem;
+
+        .card {
+          display: none;
+          height: 200px;
+
+          align-items: center;
+          flex-direction: column;
+
+          margin-left: 2rem;
+          margin-right: 2rem;
+
+          .textBox {
+             display: none;
+            h2 {
+              color: #26417e;
+              font-family: Montserrat;
+              font-size: 19px;
+              font-weight: bold;
+              letter-spacing: normal;
+              line-height: 29.17px;
+              text-align: center;
+              text-transform: uppercase;
+
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .containerMobile {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    background-color: #ffffff;
+
+    width: 1080px;
+    height: 3480px;
+
+    .centerContainerMobile {
+      .headerContentMobile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        margin-top: 10rem;
+        margin-bottom: 3rem;
+      }
+
+      .bodyVideoContainerMobile {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 977px;
+        height: 550px;
+      }
+
+      .footerMobile {
+        margin-top: 70rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        width: 100%;
+        height: 590px;
+
+        .cardMobile {
+          display: flex;
+          position: relative;
+          align-items: center;
+          flex-direction: column;
+
+          margin-left: 2rem;
+          margin-right: 2rem;
+
+          .cardImageMobile{
+            width: 230px;
+            height: 230px;
+
+            margin-top: 8rem
+          }
+
+          .textBoxMobile {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            width: 850px;
+            height: 230px;
+
+            .textMobile{
+              color: #004194;
+              font-family: Now;
+              font-size: 55px;
+              font-weight: 700;
+              font-style: normal;
+              letter-spacing: normal;
+              line-height: normal;
+              text-align: center;
+              text-transform: uppercase;
+              /* Text style for "L, uto por" */
+              font-style: normal;
+              letter-spacing: normal;
+              line-height: normal;
+
+            }
+          }
+
+
+        }
+
+        .cardMobile:nth-child(3){
+          margin-top: 2rem;
+
+        }
+
+        .cardMobile:nth-child(4){
+          margin-top: 8rem;
+        }
+      }
+    }
+  }
+}

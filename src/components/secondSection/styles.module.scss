@@ -1,0 +1,242 @@
+@media only screen and (min-width: 768px) {
+  .container {
+    display: flex;
+
+    justify-content: space-between;
+    flex-direction: row;
+
+    height: 616px;
+    width: 1920px;
+
+    background-color: #031e65;
+
+    .leftContainer {
+      margin-top: 6.2rem;
+    }
+
+    .centerContainer {
+
+      .headerContent {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+      .bodyContent {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        .leftSectionBodyContent {
+          display: flex;
+          align-items: center;
+          justify-content: flex-end;
+          .imageContainer {
+            margin-top: 4.5rem;
+          }
+        }
+
+        .rightSectionBodyContent {
+          background-color: #031e65;
+          display: flex;
+          flex: 1;
+          align-items: center;
+          justify-content: center;
+
+          .button {
+            width: 40px;
+            height: 40px;
+          }
+        }
+      }
+    }
+
+    .rightContainer {
+      margin-top: 6.2rem;
+    }
+  }
+
+  .containerMobile {
+    display: none;
+
+    .leftContainerMobile {
+      display: none;
+    }
+
+    .centerContainerMobile {
+      display: none;
+
+      .headerContentMobile {
+        display: none;
+      }
+      .footerMobile {
+        display: none;
+
+        .leftSectionBodyContentMobile {
+          display: none;
+
+          .imageContainerMobile {
+            display: none;
+          }
+        }
+
+        .rightSectionBodyContentMobile {
+          display: none;
+
+          .buttonMobile {
+            display: none;
+          }
+        }
+      }
+    }
+
+    .rightContainerMobile {
+      display: none;
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    display: none;
+
+    .leftContainer {
+      display: none;
+    }
+
+    .centerContainer {
+      display: none;
+
+      .headerContent {
+        display: none;
+      }
+
+      .bodyContent {
+        display: none;
+
+        .leftSectionBodyContent {
+          display: none;
+
+          .imageContainer {
+            display: none;
+
+          }
+        }
+
+        .rightSectionBodyContent {
+          display: none;
+
+          .button {
+            display: none;
+
+          }
+        }
+      }
+    }
+
+    .rightContainer {
+      display: none;
+    }
+  }
+
+
+  .containerMobile {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 8rem;
+
+    height: 1500px;
+    width: 1080px;
+
+    background-color: #031e65;
+
+      .headerContentMobile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        h1:first-child {
+          color: #e0953e;
+          font-family: Now;
+          font-size: 65px;
+          font-weight: 700;
+          font-style: normal;
+          letter-spacing: normal;
+          line-height: 62.48px;
+          text-align: center;
+          text-transform: uppercase;
+          /* Text style for "SOBRE MIM" */
+          font-style: normal;
+          letter-spacing: 0.29px;
+          line-height: normal;
+        }
+
+        h1 {
+          font-family: Now;
+          font-size: 55px;
+          font-weight: 700;
+          font-style: normal;
+          letter-spacing: normal;
+          line-height: 62.48px;
+          text-align: center;
+          /* Text style for "Do Taquari" */
+          font-style: normal;
+          letter-spacing: -0.29px;
+          line-height: normal;
+        }
+      }
+      .footerMobile {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        height: 788px;
+
+        .imageContainerMobile {
+          width: 600px;
+          height: 752px;
+          z-index: 1;
+
+          margin-left: 17rem;
+          margin-top: 2.8rem;
+          position: absolute;
+        }
+        .leftContainerMobile {
+          margin-top: 19.5rem;
+          width: 300px;
+
+          display: flex;
+          justify-content: flex-start;
+        }
+        .rightContainerMobile {
+          margin-top: 19.5rem;
+          width: 300px;
+
+          display: flex;
+          justify-content: flex-end;
+        }
+
+        .footeCenterContentMobile {
+          display: flex;
+          align-items: center;
+          justify-content: flex-end;
+
+          background-color: #fcb100;
+        }
+
+        .carousel {
+          display: flex;
+          flex: 1;
+          align-items: center;
+          justify-content: center;
+
+          .buttonMobile {
+            width: 40px;
+            height: 40px;
+          }
+        }
+      }
+  }
+}
