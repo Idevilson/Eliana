@@ -13,8 +13,8 @@ export function FirstSection(){
                     <Image
                         src="/assets/firstSection/abstract.png"
                         alt="efeito"
-                        width={1919}
-                        height={890}
+                        layout={"fill"}
+                        objectFit={"fill"}
                         quality={100}
                     />
                 </div>
