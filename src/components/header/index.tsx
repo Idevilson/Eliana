@@ -22,7 +22,7 @@ export function Header() {
                             </div>
 
                             <div className={styles.socialIcon}>
-                                <Link href="/">
+                                <Link href="">
                                     <a  target="_blank">
                                         <Image
                                             src="/assets/header/facebook.png"
@@ -34,7 +34,7 @@ export function Header() {
                             </div>
 
                             <div className={styles.socialIcon}>
-                                <Link href="/">
+                                <Link href="">
                                     <a  target="_blank">
                                         <Image
                                             src="/assets/header/whatsapp.png"
