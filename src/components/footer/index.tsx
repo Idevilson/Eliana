@@ -85,14 +85,6 @@ export function Footer() {
                     />
                 </div>
 
-                <div className={styles.imageContainerMobile}>
-                    <Image
-                        src="/assets/footer/footerBGMobile.png"
-                        alt="abstract"
-                        layout="fill"
-                        quality={100}
-                    />
-                </div>
                 <div className={styles.footerTopMobile}>
                     <Image
                         src="/assets/footer/sigaMobile.png"
