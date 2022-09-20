@@ -12,8 +12,8 @@ const Home: NextPage = () => {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Eliane Nogueira Deputada Estadual</title>
-          <meta name="description" content="Página Oficial Da Deputada Eliane Nogueira" />
+        <title>Eliana Nogueira Deputada Estadual</title>
+          <meta name="description" content="Página Oficial Da Deputada Eliana Nogueira" />
       </Head>
 
 
