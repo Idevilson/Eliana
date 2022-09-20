@@ -21,7 +21,25 @@
     }
 
     .textBottom {
-      margin-top: 4rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row;
+      margin-top: 3rem;
+
+      h1 {
+        z-index: 1;
+        color: #ffffff;
+        font-family: Montserrat;
+        font-size: 15px;
+        font-weight: bold;
+        font-style: normal;
+        text-align: left;
+        text-transform: uppercase;
+
+        margin-top: 1rem;
+        margin-right: 3.5rem;
+      }
     }
 
     .footerTop {
