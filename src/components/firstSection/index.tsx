@@ -23,7 +23,9 @@ export function FirstSection(){
                         src="/assets/firstSection/Eliane.png"
                         alt="Imagem do candidata Eliane"
                         quality={100}
-                        layout="fill"
+                        width={"433"}
+                        height={"637"}
+                        layout="fixed"
                     />
                 </div>
                 <div className={styles.retangleEffectFirstSection} />

@@ -21,14 +21,14 @@ export function ThirdSection() {
 
                     <div className={styles.footer}>
                             <div className={styles.card}>
-                                <Image
-                                    src="/assets/thirdSection/1.png"
-                                    alt="Primeiro Ícone"
-                                    width={94}
-                                    height={94}
-                                    quality={100}
-                                />
-
+                                    <Image
+                                        src="/assets/thirdSection/1.png"
+                                        alt="Primeiro Ícone"
+                                        width={94}
+                                        height={94}
+                                        layout={"fixed"}
+                                        quality={100}
+                                    />
                                 <div className={styles.textBox}>
                                     <h2 className={styles.text}>
                                         Defendo o <br />
@@ -43,6 +43,7 @@ export function ThirdSection() {
                                 alt="Segundo Ícone"
                                 width={94}
                                 height={94}
+                                layout={"fixed"}
                                 quality={100}
                             />
 
@@ -60,6 +61,7 @@ export function ThirdSection() {
                                 alt="terceiro ícone"
                                 width={94}
                                 height={94}
+                                layout={"fixed"}
                                 quality={100}
                             />
 
@@ -78,6 +80,7 @@ export function ThirdSection() {
                                 alt="quarto ícone"
                                 width={94}
                                 height={94}
+                                layout={"fixed"}
                                 quality={100}
                             />
 

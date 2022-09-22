@@ -35,13 +35,9 @@ export function SecondSection() {
                             height={43}
                             quality={100}
                         />
-                        <Image
-                            src="/assets/secondSection/Text.png"
-                            alt="efeito"
-                            width={521}
-                            height={35}
-                            quality={100}
-                        />
+                        <h1>
+                            Sou a renovação e a mudança!
+                        </h1>
                     </div>
 
                     <div className={styles.bodyContent}>
@@ -52,6 +48,7 @@ export function SecondSection() {
                                     alt="Foto do Eliana"
                                     width={359}
                                     height={467}
+                                    layout={"fixed"}
                                     quality={100}
                                 />
                             </div>

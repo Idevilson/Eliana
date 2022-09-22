@@ -11,8 +11,8 @@
 
     background-color: #031e65;
 
-    .leftContainer {
-      margin-top: 6.2rem;
+    .leftContainer{
+      margin-bottom: -.3rem;
     }
 
     .centerContainer {
@@ -22,6 +22,23 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
+
+        h1 {
+          margin-top: 1rem;
+          color: #ffffff;
+          font-family: Montserrat;
+          font-size: 34px;
+          font-weight: 700;
+          font-style: normal;
+          letter-spacing: normal;
+          line-height: 62.48px;
+          text-align: center;
+          /* Text style for "Sou a reno" */
+          font-style: normal;
+          letter-spacing: -0.18px;
+          line-height: normal;
+
+        }
       }
       .bodyContent {
         display: flex;
@@ -33,7 +50,8 @@
           align-items: center;
           justify-content: flex-end;
           .imageContainer {
-            margin-top: 4.5rem;
+            margin-top: 4.1rem;
+            margin-bottom: -.3rem;
           }
         }
 
@@ -53,7 +71,7 @@
     }
 
     .rightContainer {
-      margin-top: 6.2rem;
+      margin-bottom: -.3rem;
     }
   }
 
