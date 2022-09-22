@@ -120,7 +120,7 @@ export function Footer() {
                     </div>
 
                     <div className={styles.alignIconsMobile}>
-                        <Link href="/">
+                        <Link href="">
                             <Image
                                 src="/assets/footer/facebookMobile.png"
                                 alt="ícone do facebook"
@@ -130,7 +130,7 @@ export function Footer() {
                         </Link>
                     </div>
                     <div className={styles.alignIconsMobile}>
-                        <Link href="/">
+                        <Link href="">
                             <Image
                                 src="/assets/footer/whatsappMobile.png"
                                 alt="ícone do whatsapp"
