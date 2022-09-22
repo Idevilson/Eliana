@@ -9,7 +9,7 @@ export function Footer() {
             <footer className={styles.footerContainer} id="footer">
                 <div className={styles.imageContainer}>
                     <Image
-                        src="/assets/footer/footerBG.png"
+                        src="/assets/footer/abstract.png"
                         alt="abstract"
                         layout={"fill"}
                         quality={100}
